@@ -1,0 +1,10 @@
+#screen {
+    display: flex;
+    flex-wrap: wrap;
+    color: red;
+
+}
+#screen div {
+    background-color: green;
+    border: 1rem solid rgb(250, 0, 0);
+}
