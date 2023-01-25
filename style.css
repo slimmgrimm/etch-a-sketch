@@ -1,8 +1,52 @@
+body {
+    background-color: black;
+}
+body *{
+    border-radius: 25px;
+}
 #grid {
     display: grid;
-    width: 1000px;
-    height: 800px;
+    width: 800px;
+    height: 600px;
 }
 #grid div {
-    background-color: lightyellow;
+    background-color: lightgray;
+    border-radius: 0px;
 }
+#container { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 6%;
+    background-color: red;
+    color: gold;
+    font-size:xx-large;
+}
+#gameArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+
+}
+#controlBar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6%;
+    gap: 2em;
+}
+#buttonBar {
+    display: flex;
+    gap: 2em;
+}
+#controlBar button {
+    padding: 10px;
+    font-size: medium;
+    font-weight: 800;
+    border-radius: 12px;
+}
+
